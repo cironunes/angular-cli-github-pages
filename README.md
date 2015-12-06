@@ -34,6 +34,12 @@ npm install --save-dev angular-cli-github-pages
 Once that's done, you can checkout the branch you want to create the gh-page
 from (likely master) and run the command to build and commit it.
 
+Before starting you'll need to create the `gh-pages` branch (if you haven't yet):
+
+```sh
+git branch gh-pages
+```
+
 Then run `ng github-pages:deploy` in order to rebuild gh-pages branch and deploy it.
 
 ```sh
